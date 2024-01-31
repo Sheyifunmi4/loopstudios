@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+padding: 50px;
+
+}
+
+.ham{
+    display: none;
+}
+body{
+    background-image: url("image-hero.jpg");
+    background-size: center;
+    background-position: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: white;
+ max-width: fit-content;
+    
+}
+.loopstudios{
+    padding-left: 50px;
+    padding-top: 40px;
+}
+.navigation{
+display: flex;
+justify-items: left;
+margin-left: 150vh;
+text-decoration: none;
+list-style-type: none;
+color:white;
+margin-top: -80px;
+
+}
+.immersive{
+    margin-left: 150px;
+    line-height: 60px;
+    border: 1px solid white;
+   padding: 20px 90px 20px 20px;
+   width: fit-content;
+   font-size: 60px;
+   margin-top: 70px;
+}
+.grid-container{
+/* position: absolute; */
+grid-template-columns: 50% 50%;
+height: 100vh;
+width: 100%;
+/* border: 1px solid red; */
+color: black;
+margin-top: 383px;
+padding: 100px 0 10px 100px;
+}
+.grid-container img{
+    float: left;
+    position: relative;
+    
+}
+
+.Founded {
+color:black;
+/* border: 1px solid black; */
+height: 50vh;
+background-color: white;
+margin-left: 600px;
+float: left;
+position: relative;
+margin-top: -300px;
+padding: 50px;
+}
+
+.interactive{
+    text-transform: uppercase;
+    font-size: 200%;
+}
+.creations{
+    color: black;
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px
+}
+.seeall{
+    text-align: right;
+    justify-content: right;
+    margin-left: 70em;
+    margin-top: 0;
+    padding:4px 10px;
+    border: 1px solid black;
+    width: fit-content;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.foundedin{
+margin-top: 30px;
+
+}
+
+.newgrid-container{
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 150vh;
+    gap: 15px;
+    color: white;
+    width: 77vw;
+    font-size: larger;
+    padding-left: 140px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    /* padding-right: 20px; */
+    gap: 15px;
+    text-align: center;
+    
+
+}
+
+.about, .services, .projects, .contact, .support{margin-bottom: 30px;
+    padding-bottom: 20px;
+     }
+
+.navigation a {
+    padding: 1em;
+    text-decoration: none;
+    color: white;};
+
+    .box1{
+        border: 1px solid red;
+        background-image: url(image-deep-earth.jpg);
+        background-repeat: no-repeat;
+        background-position: cover;
+        background-size: center;
+    }
+    
+    .box2{
+        background-image: url(image-night-arcade.jpg);
+        background-repeat: no-repeat;
+        background-position: cover;
+        background-size: center;
+    }
+    .box3{
+        background-image: url(image-soccer-team.jpg);
+        background-repeat: no-repeat;
+        background-position: cover;
+        background-size: center;
+
+    }
+    .box4{
+        background-image: url(image-grid.jpg);
+        background-repeat: no-repeat;
+        background-position: cover;
+        background-size: center;
+    }
+    .box5{
+        background-image: url(image-from-above.jpg);
+        background-repeat: no-repeat;
+        background-position: cover;
+        background-size: center;
+    }
+    .box6{
+        background-image: url(image-pocket-borealis.jpg);
+        background-repeat: no-repeat;
+        background-position: cover;
+        background-size: center;
+    }
+
+    .box7{
+        background-image: url(image-curiosity.jpg);
+        background-repeat: no-repeat;
+        background-position: cover;
+        background-size: center;
+    }
+    .box8{
+        background-image: url(image-fisheye.jpg);
+        background-repeat: no-repeat;
+        background-position: cover;
+        background-size: center;
+    }
+    .box{
+padding-top: 380px;
+
+    }
+    .footer{
+background-color: black;
+padding: 40px;
+background-size: center;
+width: 100%;
+    }
+
+    .navigation2{
+display: flex;
+list-style-type: none;
+margin-top: 20px;
+gap: 20px;
+padding-top: 10px;}
+
+.About2, .Careers2, .Events2, .Products2, .Support2{
+text-decoration: none;
+color:white;
+
+}
+
+.icons{
+color: white;
+align-items: left;
+margin-top: -30px;
+margin-left: 70vw;
+display: flex;
+gap: 10px;
+
+    }
+    .reserved{
+        color: gray;
+        margin-left: 70vw;
+        margin-top: -30px;
+    }
+
+
+    @media(width<=500px) {
+        .container{
+            background-image: url(image-hero2.jpg);
+            background-attachment:none;
+
+        }
+        
+    }
+    .ham{
+        display: block;
+        
+    }
